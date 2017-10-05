@@ -1,0 +1,22 @@
+footer #site, footer #colabore, footer #nacional, footer #contato{
+     float:left;
+     text-align: center;
+
+}
+footer #site p, footer #colabore p, footer #nacional p, footer #contato p{
+    color:white;
+
+}
+
+footer #site a, footer #colabore a, footer #nacional a, footer #contato a{
+    color:#0069d9;
+
+}
+
+footer{
+    padding-top:3%; 
+    padding-bottom: 2%;
+}
+
+
+ 
