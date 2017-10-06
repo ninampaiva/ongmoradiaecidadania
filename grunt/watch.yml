@@ -1,0 +1,3 @@
+build:
+  files: ['*.html', 'css/*.css']
+  tasks: ['build']
