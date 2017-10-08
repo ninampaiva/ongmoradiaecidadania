@@ -1,0 +1,10 @@
+main:
+  files:
+    -
+      expand: true
+      src:
+        - 'css/*'
+        - 'vendor/**/*'
+        - '*.html'
+        - 'images/*'
+      dest: 'public/'
