@@ -16,17 +16,14 @@
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tinycarousel.css" type="text/css" media="screen"/>
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/logo.png" class="d-inline-block align-top">
-          Moradia e Cidadania
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,10 +41,10 @@
               <a class="nav-link" href="nossosprojetos.html">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Colabore</a>
+              <a class="nav-link" href="colabore.html">Colabore</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="contato.html">Contato</a>
             </li>
           </ul>
         </div>
@@ -59,6 +56,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+             <img class="icone_topo"src="images/logo_ong_semfundo.png" style="width:30%;">
           </div>
         </div>
       </div>
@@ -73,81 +71,106 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
           <p>
-            <a class="btn btn-primary btn-lg" href="#">Saiba Mais</a>
+            <a class="btn btn-primary btn-lg" href="#">Quem Somos</a>
           </p>
         </div>
-        <div class="col-sm-6 video-placeholder">
-            <iframe src="https://www.youtube.com/embed/GA-ndeD-GKg" frameborder="0" allowfullscreen></iframe>
+        <div class="col-sm-6">
+          <h2 class="mt-4">Video Institucional</h2>
+         
         </div>
       </div>
-      <!-- /.row -->
-      <div class="row">
-        <div class="col-sm-4 my-4">
-           <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Nº Projetos</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Pessoas Beneficiadas</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Empregos Diretos e Indiretos</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-          </div>
-        </div>
+    </div>
 
+   <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h2 class="mt-4">Nossos Projetos</h2>
+    <div id="slider1">
+    <a class="buttons prev" href="#">  <img src="images/esquerda.png" /></a>
+    <div class="viewport">
+      <ul class="overview">
+        <li><img src="images/picture6.jpg" /></li>
+        <li><img src="images/picture5.jpg" /></li>
+        <li><img src="images/picture4.jpg" /></li>
+        <li><img src="images/picture3.jpg" /></li>
+        <li><img src="images/picture2.jpg" /></li>
+        <li><img src="images/picture1.jpg" /></li>
+      </ul>
+    </div>
+    <a href="#" class="buttons next">
+      <img src="images/direita.png" />
+    </a>
+  </div>
+                 
+    </div>
+  </div>
+</div><!--.container-->
+ 
+  <div class="container margin_top_pequena"> 
+  <div class="row"><!-- row -->      
+     <div class="row centralizar_container">     
+        <div class="col-sm-4 my-4">
+           <div>
+            <img src="images/idea.png" alt="" class="icone_home">
+            <div class="card-body text-center">
+              <h4 class="card-title">11 Projetos </br> em Todo o Estado</h4>            
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div>
+           <img src="images/family.png" alt="" class="icone_home"> 
+            <div class="card-body text-center" >
+              <h4 class="card-title">Mais de 1100 </br> Pessoas Beneficiadas</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div>
+             <img src="images/bandeira-sc-pq-1.png" alt="" class="icone_home">
+             <div class="card-body text-center">
+                <h4 class="card-title">Iniciativa Catarinense</h4>
+             </div>
+          </div>
+        </div>
       </div>
-      <!-- /.row -->
-      <div class="row voluntario">
+      </div><!-- row -->
+    </div><!-- /.container -->
+ 
+
+    <!--   <div class="row">
         <div class="col-sm-7">
           <h2 class="mt-4">Voluntariado</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>          
         </div>
         <div class="col-sm-5">
-          <img src="images/contribuir.png"/>
+          <h2 class="mt-4">Imagem</h2>
+         
         </div>
-      </div>
-
-      <div class="row buttons">
-        <div class="col-sm-4" style="text-align: center">
+        <div class="col-sm-4 margin_top_pequena" style="text-align: center">
             <p>
               <a class="btn btn-primary btn-lg" href="#">Quero me Associar</a>
             </p>
           </div>
-          <div class="col-sm-4" style="text-align: center">
+          <div class="col-sm-4 margin_top_pequena " style="text-align: center">
             <p>
               <a class="btn btn-primary btn-lg" href="#">Quero ser Parceiro</a>
             </p>
           </div>
-          <div class="col-sm-4" style="text-align: center">
+          <div class="col-sm-4 margin_top_pequena" style="text-align: center">
             <p>
               <a class="btn btn-primary btn-lg" href="#">Quero ser Patrocinador</a>
             </p>
           </div>
-
       </div>
-    <!-- /.row -->
-    </div>
+    <!-- /.row
+    </div> 
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="footer bg-dark" >
-      <div class="container">
+    <footer class="footer bg-dark margin_top_pequena" >
+      <div class="container ">
         <div class="col-sm-12" style="padding-bottom: 15%;">
         <div id="site" class="col-sm-3">
           <p>Moradia e Cidadania SC</p>
@@ -174,9 +197,9 @@
        <div id="contato" class="col-sm-3">
         <p>Contato</p>
          <a href="#">Fale Conosco</a>
-      </div>
-      </div>
-      <div style="clear: both">
+      </div> 
+      </div> 
+      <div style="clear: both">    
       <div class="col-sm-12">
         <p class="m-0 text-center text-white">Copyright &copy; Ong Moradia e Cidadania 2017</p>
       </div>
@@ -187,7 +210,14 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function()
+    {
+      $('#slider1').tinycarousel();
+    });
+  </script>
   </body>
 
 </html>
