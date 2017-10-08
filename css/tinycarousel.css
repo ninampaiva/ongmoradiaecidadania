@@ -22,7 +22,6 @@
 #slider1 .next {
     right: 0;
     left: auto;
-    top: 50%;
 }
 
 #slider1 .buttons:hover {

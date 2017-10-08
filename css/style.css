@@ -1,3 +1,7 @@
+h2 {
+    color:#6960FF;
+}
+
 footer #site, footer #colabore, footer #nacional, footer #contato{
      float:left;
      text-align: center;
@@ -22,6 +26,7 @@ footer{
      margin: 0 auto;
 }
 
+
 .bg-dark {
     background-color: #35307F!important;
 }
@@ -42,10 +47,14 @@ footer{
  }
 
 .margin_bottom_pequena{
-        margin-top: 5%;
+        margin-bottom: 5%;
  }
 
 .imagem_topo{
     opacity: 0 !important;
 }
 
+.imagem_quemsomos{
+        width: 80%;
+        float: right;
+}
