@@ -58,3 +58,13 @@ footer{
         width: 80%;
         float: right;
 }
+
+
+
+#conteudo_formulario input{
+    margin-top: 5%;
+}
+
+.alinhado_esquerda{
+    float:left;
+}
