@@ -1,6 +1,6 @@
 footer #site, footer #colabore, footer #nacional, footer #contato{
      float:left;
-     text-align: left;
+     text-align: center;
 
 }
 footer #site p, footer #colabore p, footer #nacional p, footer #contato p{
@@ -9,44 +9,43 @@ footer #site p, footer #colabore p, footer #nacional p, footer #contato p{
 }
 
 footer #site a, footer #colabore a, footer #nacional a, footer #contato a{
-    color:#0069d9;
+    color:#FFAB79;
 
-}
-
-.row {
-  padding: 30px 0;
 }
 
 footer{
-    padding-top:3%;
+    padding-top:3%; 
     padding-bottom: 2%;
 }
 
-.voluntario {
-  padding: 20px;
+.centralizar_container{
+     margin: 0 auto;
 }
 
-.voluntario img {
-  width: 100%;
-  height: auto;
+.bg-dark {
+    background-color: #35307F!important;
 }
 
-.buttons {
-  padding: 30px;
+.btn-primary{
+    background-color: #FFAB79!important;
+    border-color: #FFAB79!important;
+    
 }
 
-.navbar-brand img {
-  width: 34px;
-  auto: 34px;
-  margin-right: 20px;
+.icone_home{
+    margin-left: 35%;
 }
 
-.video-placeholder {
-  padding: 20px
+
+.margin_top_pequena{
+        margin-top: 5%;
+ }
+
+.margin_bottom_pequena{
+        margin-top: 5%;
+ }
+
+.imagem_topo{
+    opacity: 0 !important;
 }
 
-iframe {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
