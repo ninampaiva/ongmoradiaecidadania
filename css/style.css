@@ -1,6 +1,6 @@
 footer #site, footer #colabore, footer #nacional, footer #contato{
      float:left;
-     text-align: center;
+     text-align: left;
 
 }
 footer #site p, footer #colabore p, footer #nacional p, footer #contato p{
@@ -13,10 +13,40 @@ footer #site a, footer #colabore a, footer #nacional a, footer #contato a{
 
 }
 
+.row {
+  padding: 30px 0;
+}
+
 footer{
-    padding-top:3%; 
+    padding-top:3%;
     padding-bottom: 2%;
 }
 
+.voluntario {
+  padding: 20px;
+}
 
- 
+.voluntario img {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  padding: 30px;
+}
+
+.navbar-brand img {
+  width: 34px;
+  auto: 34px;
+  margin-right: 20px;
+}
+
+.video-placeholder {
+  padding: 20px
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

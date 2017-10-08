@@ -1,0 +1,9 @@
+default:
+  - build
+
+build:
+  - copy
+
+deploy:
+  - build
+  - exec
