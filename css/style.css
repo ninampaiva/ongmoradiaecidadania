@@ -43,7 +43,7 @@ footer{
 
 
 .margin_top_pequena{
-        margin-top: 5%;
+        margin-top: 5% !important;
  }
 
 .margin_bottom_pequena{
@@ -67,4 +67,14 @@ footer{
 
 .alinhado_esquerda{
     float:left;
+}
+
+#conteudo_formulario{
+    background-color:#6960FF;
+    color: white;
+}
+
+#conteudo_formulario h2{
+    text-align: center;
+     color: white;
 }
