@@ -78,3 +78,10 @@ footer{
     text-align: center;
      color: white;
 }
+
+.btn-second {
+    background-color: #35307F!important;
+    border-color: #35307F!important;
+    color:#fff;
+    width: 30%;
+}
